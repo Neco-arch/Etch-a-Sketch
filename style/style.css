@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+}
+
+.Option {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+    
+}
+
+.Title {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+button {
+    height: 30px;
+    width: 200px;
+    box-shadow: 2px 2px 4px black;
+    border-style: none;
+    
+}
+
+button:active {
+    background-color: azure;
+}
+
+.Drawing-Grid {
+    width: 700px;
+    height: 700px;
+    border-radius: 3px;
+    border-color: black;
+    background-color: white;
+}
+
+.Drawing-Grid_Wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
