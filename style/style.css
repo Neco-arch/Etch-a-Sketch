@@ -28,9 +28,9 @@ button:active {
 }
 
 .Drawing-Grid {
+    display: flex;
     width: 700px;
     height: 700px;
-    border-radius: 3px;
     border-color: black;
     background-color: white;
 }
@@ -40,4 +40,31 @@ button:active {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Drawing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    height: 700px;
+    border-style: solid;
+}
+
+.Div_Drawing {
+    display: flex;
+    flex: auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.Color_Picker {
+    height: 30px;
+    width: 200px;
+    box-shadow: 2px 2px 4px black;
+    border-style: none;
+}
+
+.Color_Picker_div {
+    display: flex;
+    flex-direction: column;
 }
