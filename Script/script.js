@@ -28,7 +28,11 @@ function StarterGrid() {
 };
 
 function CreateGrid() {
-    let User_Squares = prompt("How many square you want on each sides");
+    let User_Squares = prompt("How many square you want on each sides (1-100)");
+    if (User_Squares > 100 || User_Squares < 1) {
+        alert("You can't do that")
+        User_Squares = 16
+    }
     let Grid = String((700 / User_Squares));
     let height = String((700 / User_Squares));
     Drawing_Grid.innerHTML = "";
